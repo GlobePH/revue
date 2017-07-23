@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize"
+            android:id="@+id/toolbar3" >
+
+            <TextView
+                android:text="Rate Product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginRight="16dp"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textAllCaps="true" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:text="Build and Design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_margin="16dp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate_1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:numStars="5"
+            android:stepSize="1"
+            android:isIndicator="false" />
+
+        <TextView
+            android:text="Durability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_margin="16dp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate_2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:numStars="5"
+            android:stepSize="1"
+            android:isIndicator="false" />
+
+        <TextView
+            android:text="Performance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_margin="16dp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate_3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:numStars="5"
+            android:stepSize="1"
+            android:isIndicator="false" />
+
+        <Button
+            android:text="GIVE RATE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_rate"
+            android:layout_margin="16dp" />
+
+    </LinearLayout>
+</RelativeLayout>

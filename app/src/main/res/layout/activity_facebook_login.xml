@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_facebook_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cryptonice.revue.FacebookLogin"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/bg"
+        android:id="@+id/imageView3"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_height="200dp"
+            android:layout_marginTop="120dp"
+            app:srcCompat="@drawable/icon" />
+
+        <TextView
+            android:text="revue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_login_name"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:layout_margin="16dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_facebook_login"
+        android:layout_marginBottom="66dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+    </com.facebook.login.widget.LoginButton>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Revue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="facebook_app_id">275260519547756</string>
+    <string name="fb_login_protocol_scheme">fb275260519547756</string>
+</resources>

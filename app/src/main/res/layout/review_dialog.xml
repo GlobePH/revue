@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize"
+            android:id="@+id/toolbar2" >
+
+            <TextView
+                android:text="GIVE REVIEW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_marginRight="16dp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/txt_dialog_review"
+            android:layout_margin="16dp"
+            android:hint="Write a review..." />
+
+        <Button
+            android:text="SUBMIT REVIEW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_submit_review"
+            android:layout_margin="16dp" />
+
+    </LinearLayout>
+</RelativeLayout>
